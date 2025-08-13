@@ -138,8 +138,7 @@ If you use this code or data in your research, please cite the associated paper:
 @article{Patel2025Emergent,
 title={Emergent Spacetime Signatures from Minimal Quantum Circuits: Entanglement, Entropy, and Real-Hardware Evidence},
 author={Patel, Ankitkumar},
-journal={arXiv preprint arXiv:XXXX.XXXXX}, % Replace with actual arXiv ID
-year={2025}
+
 
 
 ---
