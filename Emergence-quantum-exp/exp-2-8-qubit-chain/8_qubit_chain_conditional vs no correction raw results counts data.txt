@@ -1,0 +1,222 @@
+8_qubit_chain_conditional vs no correction raw results data
+
+
+
+(qiskit_current_env) C:\Users\ANKIT\Documents\graviton-qiskit>python exp_chain8_compare_conditional_vs_nocorrection.py
+INFO:
+--- Processing conditional pure quantum circuit (8-Qubit) for Entropy ---
+INFO: Running statevector simulation and entropy calculation for conditional...
+ERROR: Could not load 'ibm_backend': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_dynamic_circuits': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_backend': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_dynamic_circuits': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+INFO: Pass: ContainsInstruction - 0.01121 (ms)
+INFO: Pass: UnitarySynthesis - 0.01192 (ms)
+INFO: Pass: HighLevelSynthesis - 0.01287 (ms)
+INFO: Pass: BasisTranslator - 0.07105 (ms)
+INFO: Pass: ElidePermutations - 0.01192 (ms)
+INFO: Pass: RemoveDiagonalGatesBeforeMeasure - 0.00978 (ms)
+INFO: Pass: RemoveIdentityEquivalent - 0.01884 (ms)
+INFO: Pass: InverseCancellation - 0.11468 (ms)
+INFO: Pass: ContractIdleWiresInControlFlow - 0.00501 (ms)
+INFO: Pass: CommutativeCancellation - 0.07391 (ms)
+INFO: Pass: ConsolidateBlocks - 0.19479 (ms)
+INFO: Pass: Split2QUnitaries - 0.00739 (ms)
+INFO: Pass: UnitarySynthesis - 0.01311 (ms)
+INFO: Pass: HighLevelSynthesis - 0.03505 (ms)
+INFO: Pass: BasisTranslator - 0.10586 (ms)
+INFO: Pass: ConsolidateBlocks - 0.25892 (ms)
+INFO: Pass: UnitarySynthesis - 0.00691 (ms)
+INFO: Pass: Depth - 0.02003 (ms)
+INFO: Pass: FixedPoint - 0.00525 (ms)
+INFO: Pass: Size - 0.00834 (ms)
+INFO: Pass: FixedPoint - 0.00501 (ms)
+INFO: Pass: RemoveIdentityEquivalent - 0.00668 (ms)
+INFO: Pass: Optimize1qGatesDecomposition - 0.10562 (ms)
+INFO: Pass: CommutativeCancellation - 0.05054 (ms)
+INFO: Pass: ContractIdleWiresInControlFlow - 0.00429 (ms)
+INFO: Pass: GatesInBasis - 0.01407 (ms)
+INFO: Pass: Depth - 0.01001 (ms)
+INFO: Pass: FixedPoint - 0.00381 (ms)
+INFO: Pass: Size - 0.00501 (ms)
+INFO: Pass: FixedPoint - 0.00334 (ms)
+INFO: Pass: ContainsInstruction - 0.00763 (ms)
+INFO: Total Transpile Time - 950.71507 (ms)
+INFO: Successfully retrieved statevector for pure_conditional_8q_circuit.
+INFO: Successfully cast state to qiskit.quantum_info.Statevector for pure_conditional_8q_circuit.
+
+--- VON NEUMANN ENTROPIES PER QUBIT (8-Qubit conditional Pure Quantum Simulated) ---
+q0: 1.0000
+q1: 1.0000
+q2: 1.0000
+q3: 1.0000
+q4: 1.0000
+q5: 1.0000
+q6: 1.0000
+q7: 1.0000
+---------------------------------------------------------
+INFO:
+--- Processing simple_chain pure quantum circuit (8-Qubit) for Entropy ---
+INFO: Running statevector simulation and entropy calculation for simple_chain...
+ERROR: Could not load 'ibm_backend': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_dynamic_circuits': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_backend': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_dynamic_circuits': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+INFO: Pass: ContainsInstruction - 0.00668 (ms)
+INFO: Pass: UnitarySynthesis - 0.00572 (ms)
+INFO: Pass: HighLevelSynthesis - 0.00596 (ms)
+INFO: Pass: BasisTranslator - 0.05579 (ms)
+INFO: Pass: ElidePermutations - 0.00739 (ms)
+INFO: Pass: RemoveDiagonalGatesBeforeMeasure - 0.00668 (ms)
+INFO: Pass: RemoveIdentityEquivalent - 0.00620 (ms)
+INFO: Pass: InverseCancellation - 0.05794 (ms)
+INFO: Pass: ContractIdleWiresInControlFlow - 0.00286 (ms)
+INFO: Pass: CommutativeCancellation - 0.02527 (ms)
+INFO: Pass: ConsolidateBlocks - 0.05603 (ms)
+INFO: Pass: Split2QUnitaries - 0.00381 (ms)
+INFO: Pass: UnitarySynthesis - 0.00858 (ms)
+INFO: Pass: HighLevelSynthesis - 0.01597 (ms)
+INFO: Pass: BasisTranslator - 0.08631 (ms)
+INFO: Pass: ConsolidateBlocks - 0.17643 (ms)
+INFO: Pass: UnitarySynthesis - 0.00739 (ms)
+INFO: Pass: Depth - 0.03672 (ms)
+INFO: Pass: FixedPoint - 0.01478 (ms)
+INFO: Pass: Size - 0.01264 (ms)
+INFO: Pass: FixedPoint - 0.00620 (ms)
+INFO: Pass: RemoveIdentityEquivalent - 0.00739 (ms)
+INFO: Pass: Optimize1qGatesDecomposition - 0.07749 (ms)
+INFO: Pass: CommutativeCancellation - 0.03672 (ms)
+INFO: Pass: ContractIdleWiresInControlFlow - 0.00358 (ms)
+INFO: Pass: GatesInBasis - 0.00882 (ms)
+INFO: Pass: Depth - 0.00882 (ms)
+INFO: Pass: FixedPoint - 0.00405 (ms)
+INFO: Pass: Size - 0.00310 (ms)
+INFO: Pass: FixedPoint - 0.00286 (ms)
+INFO: Pass: ContainsInstruction - 0.00548 (ms)
+INFO: Total Transpile Time - 69.10896 (ms)
+INFO: Successfully retrieved statevector for pure_simple_chain_8q_circuit.
+INFO: Successfully cast state to qiskit.quantum_info.Statevector for pure_simple_chain_8q_circuit.
+
+--- VON NEUMANN ENTROPIES PER QUBIT (8-Qubit simple_chain Pure Quantum Simulated) ---
+q0: 0.0000
+q1: 0.0000
+q2: 0.0000
+q3: 1.0000
+q4: 1.0000
+q5: 1.0000
+q6: 1.0000
+q7: 1.0000
+---------------------------------------------------------
+INFO:
+--- Processing conditional_qasm circuit (8-Qubit) for Counts ---
+INFO: Running QASM simulation for bitstring histogram for conditional_qasm...
+ERROR: Could not load 'ibm_backend': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_dynamic_circuits': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_backend': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_dynamic_circuits': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+INFO: Pass: ContainsInstruction - 0.00668 (ms)
+INFO: Pass: UnitarySynthesis - 0.04888 (ms)
+INFO: Pass: HighLevelSynthesis - 0.03004 (ms)
+INFO: Pass: BasisTranslator - 0.06199 (ms)
+INFO: Pass: ElidePermutations - 0.00644 (ms)
+INFO: Pass: RemoveDiagonalGatesBeforeMeasure - 0.32282 (ms)
+INFO: Pass: RemoveIdentityEquivalent - 0.00572 (ms)
+INFO: Pass: InverseCancellation - 0.18144 (ms)
+INFO: Pass: ContractIdleWiresInControlFlow - 0.04292 (ms)
+INFO: Pass: CommutativeCancellation - 0.10085 (ms)
+INFO: Pass: ConsolidateBlocks - 0.01812 (ms)
+INFO: Pass: ConsolidateBlocks - 0.35334 (ms)
+INFO: Pass: Split2QUnitaries - 0.00358 (ms)
+INFO: Pass: UnitarySynthesis - 0.04888 (ms)
+INFO: Pass: HighLevelSynthesis - 0.33236 (ms)
+INFO: Pass: BasisTranslator - 0.11325 (ms)
+INFO: Pass: ConsolidateBlocks - 0.02360 (ms)
+INFO: Pass: ConsolidateBlocks - 0.39315 (ms)
+INFO: Pass: UnitarySynthesis - 0.03123 (ms)
+INFO: Pass: Depth - 0.04506 (ms)
+INFO: Pass: FixedPoint - 0.00429 (ms)
+INFO: Pass: Size - 0.02599 (ms)
+INFO: Pass: FixedPoint - 0.00334 (ms)
+INFO: Pass: RemoveIdentityEquivalent - 0.00525 (ms)
+INFO: Pass: Optimize1qGatesDecomposition - 0.17452 (ms)
+INFO: Pass: CommutativeCancellation - 0.14448 (ms)
+INFO: Pass: ContractIdleWiresInControlFlow - 0.02170 (ms)
+INFO: Pass: GatesInBasis - 0.02003 (ms)
+INFO: Pass: Depth - 0.03624 (ms)
+INFO: Pass: FixedPoint - 0.00453 (ms)
+INFO: Pass: Size - 0.02670 (ms)
+INFO: Pass: FixedPoint - 0.00405 (ms)
+INFO: Pass: RemoveIdentityEquivalent - 0.00501 (ms)
+INFO: Pass: Optimize1qGatesDecomposition - 0.17118 (ms)
+INFO: Pass: CommutativeCancellation - 0.13089 (ms)
+INFO: Pass: ContractIdleWiresInControlFlow - 0.01645 (ms)
+INFO: Pass: GatesInBasis - 0.01335 (ms)
+INFO: Pass: Depth - 0.03910 (ms)
+INFO: Pass: FixedPoint - 0.00453 (ms)
+INFO: Pass: Size - 0.03052 (ms)
+INFO: Pass: FixedPoint - 0.00501 (ms)
+INFO: Pass: ContainsInstruction - 0.03266 (ms)
+INFO: Total Transpile Time - 91.21108 (ms)
+INFO: Pass: Decompose - 0.25916 (ms)
+
+--- RAW COUNTS FOR PAPER (8-Qubit conditional_qasm Simulated Histogram) ---
+Counts:
+{'10000011 1': 8, '00100000 0': 10, '00010111 1': 12, '01001111 1': 11, '10000111 1': 10, '00010011 1': 6, '11011100 0': 13, '01110000 0': 10, '11010011 1': 7, '01000111 1': 8, '01111100 0': 11, '10111000 0': 8, '01111000 0': 13, '01101111 1': 6, '00000000 0': 7, '00010000 0': 12, '11101000 0': 12, '00110100 0': 9, '01101100 0': 9, '11110000 0': 11, '01010000 0': 11, '11011111 1': 10, '00111011 1': 9, '11010111 1': 12, '01011000 0': 9, '11100100 0': 6, '10001100 0': 10, '01000000 0': 6, '10111111 1': 11, '11010000 0': 14, '01110011 1': 5, '00110000 0': 7, '11001111 1': 6, '11111111 1': 6, '00101100 0': 5, '11001011 1': 14, '01000100 0': 5, '10101011 1': 9, '11001100 0': 12, '00101011 1': 9, '00110011 1': 6, '11111000 0': 5, '10100000 0': 11, '11100111 1': 12, '00010100 0': 4, '01101011 1': 11, '00011111 1': 10, '10011111 1': 9, '10101000 0': 14, '01011100 0': 7, '01001100 0': 6, '11000100 0': 6, '01100100 0': 8, '11000111 1': 12, '10001111 1': 12, '00001000 0': 9, '01011111 1': 3, '00000100 0': 9, '11110100 0': 8, '01101000 0': 11, '10011100 0': 5, '01000011 1': 15, '11100011 1': 5, '00011100 0': 8, '11010100 0': 8, '00111000 0': 9, '10100100 0': 6, '10111011 1': 4, '11111100 0': 4, '00101111 1': 9, '11101100 0': 8, '10000100 0': 6, '11101011 1': 11, '11110011 1': 4, '10101100 0': 7, '10010011 1': 13, '10100111 1': 8, '11000011 1': 9, '10100011 1': 6, '10010100 0': 12, '00111111 1': 10, '10011011 1': 5, '00000111 1': 9, '00100011 1': 3, '10000000 0': 5, '01010100 0': 7, '10010111 1': 8, '01111011 1': 5, '10110000 0': 9, '11110111 1': 9, '00011011 1': 11, '11011000 0': 10, '10111100 0': 9, '00000011 1': 10, '10010000 0': 6, '01001000 0': 9, '10110100 0': 5, '00100111 1': 7, '11001000 0': 5, '00110111 1': 7, '10110111 1': 5, '10101111 1': 5, '10011000 0': 5, '01111111 1': 5, '00001011 1': 5, '01110111 1': 9, '01011011 1': 8, '11111011 1': 3, '01100000 0': 7, '00001100 0': 8, '10110011 1': 8, '11000000 0': 6, '10001000 0': 9, '00101000 0': 6, '01100111 1': 6, '01100011 1': 5, '11100000 0': 6, '11011011 1': 6, '01010011 1': 7, '00001111 1': 6, '00100100 0': 7, '11101111 1': 8, '00111100 0': 6, '01010111 1': 11, '10001011 1': 5, '01110100 0': 6, '01001011 1': 4, '00011000 0': 4}
+----------------------------------------------------------
+INFO:
+--- Processing simple_chain_qasm circuit (8-Qubit) for Counts ---
+INFO: Running QASM simulation for bitstring histogram for simple_chain_qasm...
+ERROR: Could not load 'ibm_backend': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_dynamic_circuits': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_backend': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+ERROR: Could not load 'ibm_dynamic_circuits': cannot import name 'ProviderV1' from 'qiskit.providers' (C:\Users\ANKIT\Documents\graviton-qiskit\qiskit_current_env\Lib\site-packages\qiskit\providers\__init__.py)
+INFO: Pass: ContainsInstruction - 0.00691 (ms)
+INFO: Pass: UnitarySynthesis - 0.00715 (ms)
+INFO: Pass: HighLevelSynthesis - 0.00739 (ms)
+INFO: Pass: BasisTranslator - 0.08082 (ms)
+INFO: Pass: ElidePermutations - 0.00882 (ms)
+INFO: Pass: RemoveDiagonalGatesBeforeMeasure - 0.01001 (ms)
+INFO: Pass: RemoveIdentityEquivalent - 0.00858 (ms)
+INFO: Pass: InverseCancellation - 0.07796 (ms)
+INFO: Pass: ContractIdleWiresInControlFlow - 0.00477 (ms)
+INFO: Pass: CommutativeCancellation - 0.06819 (ms)
+INFO: Pass: ConsolidateBlocks - 0.13018 (ms)
+INFO: Pass: Split2QUnitaries - 0.00405 (ms)
+INFO: Pass: UnitarySynthesis - 0.01121 (ms)
+INFO: Pass: HighLevelSynthesis - 0.01144 (ms)
+INFO: Pass: BasisTranslator - 0.07439 (ms)
+INFO: Pass: ConsolidateBlocks - 0.10467 (ms)
+INFO: Pass: UnitarySynthesis - 0.00572 (ms)
+INFO: Pass: Depth - 0.01287 (ms)
+INFO: Pass: FixedPoint - 0.00525 (ms)
+INFO: Pass: Size - 0.00477 (ms)
+INFO: Pass: FixedPoint - 0.00453 (ms)
+INFO: Pass: RemoveIdentityEquivalent - 0.00477 (ms)
+INFO: Pass: Optimize1qGatesDecomposition - 0.06938 (ms)
+INFO: Pass: CommutativeCancellation - 0.03934 (ms)
+INFO: Pass: ContractIdleWiresInControlFlow - 0.00310 (ms)
+INFO: Pass: GatesInBasis - 0.00811 (ms)
+INFO: Pass: Depth - 0.01121 (ms)
+INFO: Pass: FixedPoint - 0.00453 (ms)
+INFO: Pass: Size - 0.00405 (ms)
+INFO: Pass: FixedPoint - 0.00381 (ms)
+INFO: Pass: ContainsInstruction - 0.00715 (ms)
+INFO: Total Transpile Time - 116.26124 (ms)
+
+--- RAW COUNTS FOR PAPER (8-Qubit simple_chain_qasm Simulated Histogram) ---
+Counts:
+{'00000100 0': 10, '10100000 0': 6, '11110001 1': 16, '01110100 0': 8, '00101100 0': 7, '10010101 1': 12, '01001100 0': 9, '10001100 0': 11, '11001100 0': 6, '01111101 1': 12, '10011101 1': 7, '01000100 0': 9, '11000001 1': 11, '00100101 1': 7, '01100001 1': 10, '00110101 1': 7, '10010000 0': 11, '00110001 1': 10, '11011100 0': 7, '01100000 0': 8, '01110101 1': 14, '00010100 0': 9, '11000101 1': 8, '10110000 0': 6, '10011001 1': 10, '10100100 0': 8, '01101001 1': 10, '01110000 0': 8, '01100101 1': 11, '00100001 1': 10, '01001101 1': 5, '01010101 1': 12, '11010101 1': 3, '00111001 1': 9, '00010101 1': 4, '11010000 0': 10, '10000001 1': 5, '10100101 1': 11, '11111001 1': 6, '01011100 0': 8, '01000001 1': 5, '11000100 0': 7, '10111100 0': 11, '01111000 0': 7, '10101101 1': 9, '10101100 0': 9, '11100001 1': 5, '11111000 0': 10, '00001101 1': 13, '10110100 0': 11, '01101000 0': 8, '01111001 1': 12, '01000101 1': 2, '00000101 1': 9, '00101101 1': 11, '10010100 0': 8, '01011000 0': 11, '11001001 1': 13, '00101001 1': 9, '00110100 0': 5, '11000000 0': 9, '10110101 1': 9, '01111100 0': 9, '10000101 1': 12, '00111000 0': 8, '00010001 1': 15, '10100001 1': 9, '01010001 1': 11, '11101100 0': 7, '11101000 0': 4, '11011101 1': 11, '11110101 1': 7, '00001000 0': 9, '00001100 0': 10, '00110000 0': 4, '10010001 1': 9, '11101001 1': 12, '10001101 1': 13, '00010000 0': 7, '11111100 0': 8, '01011001 1': 4, '11100101 1': 7, '00111100 0': 10, '11010100 0': 8, '10011000 0': 5, '11001000 0': 6, '01010000 0': 7, '10000100 0': 5, '10110001 1': 7, '01110001 1': 16, '00001001 1': 7, '11100100 0': 3, '01011101 1': 4, '10011100 0': 11, '00011101 1': 4, '01100100 0': 8, '10000000 0': 3, '00111101 1': 8, '11100000 0': 10, '10101001 1': 9, '00011000 0': 7, '00011001 1': 5, '01101101 1': 7, '11110000 0': 11, '10001000 0': 9, '11110100 0': 5, '01000000 0': 11, '00011100 0': 7, '10111001 1': 8, '10001001 1': 5, '11011001 1': 3, '01001000 0': 6, '01101100 0': 6, '10101000 0': 7, '01001001 1': 9, '11011000 0': 12, '11101101 1': 3, '10111000 0': 5, '00000001 1': 8, '00100100 0': 6, '00101000 0': 6, '11010001 1': 6, '01010100 0': 2, '00100000 0': 4, '10111101 1': 7, '00000000 0': 4, '11111101 1': 3, '11001101 1': 1}
+----------------------------------------------------------
+INFO:
+--- Generating plots for the paper (both Conditional and Simple Chain Circuits) ---
+Figure 2 (8-qubit conditional_qasm histogram) saved as figure2_8qubit_conditional_qasm_histogram.png
+Figure 2 (8-qubit simple_chain_qasm histogram) saved as figure2_8qubit_simple_chain_qasm_histogram.png
+INFO:
+--- Generating Combined Entropy Line Plot (Figure 3 for paper) ---
+Combined Entropy Plot saved as figure3_8qubit_combined_entropy_plot.png
+INFO:
+Comparison run complete. Review the printed results and generated plots.
+INFO: Remember to run the 9-qubit grid experiment next.
+
+
+

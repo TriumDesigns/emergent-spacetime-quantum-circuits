@@ -1,0 +1,28 @@
+run_emergence_ibm  raw result counts and data
+
+(qiskit_current_env) C:\Users\ANKIT\Documents\graviton-qiskit>python run_emergence_ibm_result.py
+INFO: DEBUG: QISKIT_IBM_TOKEN (first 10 chars): bYroa1VHqy...
+INFO: DEBUG: QISKIT_IBM_CHANNEL: 'ibm_cloud'
+INFO: DEBUG: QISKIT_IBM_INSTANCE: 'crn:v1:bluemix:public:quantum-computing:us-east:a/55f699f22bb140259482766b2816bc18:a450b83e-9ea0-45f6-9110-3e8756bea3be::'
+INFO: IBM Quantum service initialized successfully using environment variables.
+INFO: Retrieving job with ID: d1b8pkk7tq0c73dc9s30
+INFO: Job status: DONE
+WARNING: Could not retrieve shots from job options, defaulting to 1024: 'RuntimeJobV2' object has no attribute 'options'
+INFO: Counts retrieved from 'c_reg' classical register.
+
+--- RAW COUNTS FOR PAPER (4-Qubit Chain) ---
+Job ID: d1b8pkk7tq0c73dc9s30
+Backend Used: ibm_sherbrooke
+Shots: 1024
+Counts:
+{'1001': 9, '0011': 149, '0111': 156, '0010': 28, '0001': 42, '0100': 158, '1000': 57, '1111': 69, '0101': 34, '0000': 128, '0110': 38, '1010': 12, '1100': 67, '1110': 12, '1011': 57, '1101': 8}
+------------------------------------------------
+
+--- SHANNON ENTROPIES PER QUBIT (4-Qubit Chain) ---
+q0: 0.9996
+q1: 0.9998
+q2: 0.9975
+q3: 0.8611
+------------------------------------------------
+
+Figure 1 (4-qubit histogram) saved as figure1_4qubit_histogram.png
